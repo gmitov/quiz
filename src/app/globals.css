@@ -1,0 +1,64 @@
+@font-face {
+    font-family: 'TT Norms Pro';
+    src: url('../../public/fonts/TT Norms Pro Trial Normal.ttf') format('truetype');
+    font-weight: 400; /* Normal weight */
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Norms Pro';
+    src: url('../../public/fonts/TT Norms Pro Trial Bold.ttf') format('truetype');
+    font-weight: 700; /* Bold weight */
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Norms Pro';
+    src: url('../../public/fonts/TT Norms Pro Trial DemiBold.ttf') format('truetype');
+    font-weight: 600; /* DemiBold weight */
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Norms Pro';
+    src: url('../../public/fonts/TT Norms Pro Compact Trial Medium.ttf') format('truetype');
+    font-weight: 500; /* Medium weight */
+    font-style: normal;
+    font-display: swap;
+}
+
+:root {
+    --background: #ffffff;
+    --foreground: #171717;
+}
+
+body {
+    font-family: 'TT Norms Pro';
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+html,
+body {
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+ul,
+li {
+    list-style: none;
+}

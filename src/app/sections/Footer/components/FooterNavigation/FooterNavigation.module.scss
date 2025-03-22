@@ -1,0 +1,9 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+
+    @media (min-width: 768px) {
+        flex-direction: row;
+    }
+}

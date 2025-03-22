@@ -1,0 +1,12 @@
+.treatmentsListContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 35px;
+
+    @media (min-width: 768px) {
+        gap: 180px;
+        margin-bottom: 90px;
+        padding: 0;
+    }
+}

@@ -1,0 +1,78 @@
+.headerContainer {
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    background-position: right center;
+    padding: 20px 20px 60px 20px;
+    min-height: 500px;
+    background-position: 60% bottom;
+
+    @media (min-width: 768px) {
+        padding: 30px 834px 190px 138px;
+        gap: 119px;
+        background-position: initial;
+        align-items: center;
+    }
+}
+
+.logoContainer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.headerTextContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+    @media (min-width: 768px) {
+        width: 468px;
+        gap: 20px;
+    }
+}
+
+.heading {
+    color: var(--father-hero, #0b3b3c);
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 80px;
+    letter-spacing: -2.7px;
+
+    @media (min-width: 768px) {
+        font-size: 90px;
+        line-height: 90px;
+        color: var(--father-hero, #0b3b3c);
+    }
+}
+
+.subTitle {
+    color: var(--father-hero, #0b3b3c);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    width: 200px;
+
+    @media (min-width: 768px) {
+        color: var(--father-hero, #0b3b3c);
+        width: 100%;
+    }
+}
+
+.buttonCallToAction {
+    padding: 15px 30px;
+    background: var(--son-accent, #7e0707);
+    color: var(--White, #fff);
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    width: 156px;
+    cursor: pointer;
+    border: 0px;
+}
