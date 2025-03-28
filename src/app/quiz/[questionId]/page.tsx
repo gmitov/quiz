@@ -1,6 +1,6 @@
 'use client';
 
-import { QuizQuestion } from '@/app/components/Quiz/QuizQuestion/QuizQuestion';
+import QuizQuestion from '@/app/components/Quiz/QuizQuestion/QuizQuestion';
 import { notFound } from 'next/navigation';
 import styles from '../Quiz.module.scss';
 import { use } from 'react';
