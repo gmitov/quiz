@@ -1,4 +1,4 @@
-import { QuizResults } from '@/app/components/Quiz/QuizResults/QuizResults';
+import QuizResults from '@/app/components/Quiz/QuizResults/QuizResults';
 import styles from '../Quiz.module.scss';
 
 export default function ResultsPage() {
