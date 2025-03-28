@@ -1,4 +1,4 @@
-import { QuizStart } from '../components/Quiz/QuizStart/QuizStart';
+import QuizStart from '../components/Quiz/QuizStart/QuizStart';
 import styles from './Quiz.module.scss';
 
 export default function QuizPage() {
